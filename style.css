@@ -1,0 +1,197 @@
+/* fonte do texto */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* padrão global */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Raleway';
+    color: #fff;
+    text-align: center;
+}
+
+/* Tratando o banner */
+.banner{
+    width: 100%;
+    height: 605px;
+    padding-top: 56px;
+    
+    background-image: url("/assets/images/banner.png"), linear-gradient(rgba(0, 0, 0, 0.6) 0, rgba(49, 168, 221,0.2), rgba(0, 0, 0, 0.6));
+    background-color: #000;
+    border-bottom: 1px solid rgb(49, 168, 221);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    width: 600px;
+    height: 400px;
+
+    margin: auto;
+}
+
+/* Criação do circulo e centralização de logo */
+.logo{
+    width: 268px;
+    height: 268px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 200px;
+
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 248px;
+    height: 214px;
+
+    margin: 27px auto;
+}
+
+/* Manipulando a fonte */
+.banner-content h1, 
+.banner-content button, 
+#course-content h2, 
+#professional-challenges h2{
+    text-transform: uppercase;
+    font-weight: 800;
+
+    background: linear-gradient(#33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content h1{
+    height:47px;
+    margin: 16px auto;
+
+    font-size: 40px;
+}
+
+.banner-content p{
+
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.banner-content button{
+    margin-top: 24px;
+    padding: 19px 50px;
+
+    background-color: rgba(255, 255, 255, 0.0);
+    font-size: 16px;
+    letter-spacing: .2rem;
+    color: #31A8DD; 
+    border-color: #31A8DD; 
+}
+
+/* segunda div */
+main{
+    background-color: #000;
+    height: 1820px;
+}
+#course-content{
+    width:792px;
+    height: 550px;
+    
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+#course-content p,
+#course-content h2 {
+    margin-bottom: 24px;
+}
+
+#course-content h2{
+    font-size: 32px;   
+}
+
+.module{
+    width: 535px;
+    height: 51px;
+
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    border-radius: 25px;
+    margin: 24px auto;
+    padding: 16px 0;
+
+    box-shadow: -10px 15px 25px -10px black inset;
+}
+
+.module span{
+    color: #33A8DB
+}
+
+/* banner da mulher */
+#transform-world{
+    background-image: url("/assets/images/woman-code.png");
+
+    height: 470px;
+
+    background-size: cover;
+    background-attachment: fixed;
+
+    border-bottom: 1px solid rgb(49, 168, 221);
+    border-top: 1px solid rgb(49, 168, 221);
+
+    position: relative;
+}
+
+/* Manipulando texto */
+#transform-world p{
+    width: 275px;
+    height: 141px;
+    position: absolute;
+    text-align: left;
+
+    left: 198px;
+    top: 210px;
+
+    font-weight: 900; 
+    font-size: 40px;
+    text-shadow: 3px 2px 0px #33A8DB; 
+}
+
+/* Manipulando professional */
+
+#professional-challenges{
+    border-bottom: 1px solid rgb(49, 168, 221);
+}
+#professional-challenges h2{
+    width: 746px;
+    
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    font-size: 32px;
+}
+#professional-challenges p{
+    padding-top: 40px;
+    padding-bottom: 90px;
+    width: 792px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0 auto;
+}
+footer{
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+
+    background-color: #000;    
+    height: 170px;
+}
+footer img{
+    margin-top: 59px;
+}
+footer p{
+    margin-top: 10px;
+}
+footer a{
+    color: #33A8DB; 
+    text-decoration: none;
+    font-weight: 700;
+}
